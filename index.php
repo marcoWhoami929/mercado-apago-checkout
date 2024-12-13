@@ -18,7 +18,7 @@ use MercadoPago\Client\Preference\PreferenceClient;
 use MercadoPago\MercadoPagoConfig;
 
 // Agrega credenciales ACCESS_TOKEN
-MercadoPagoConfig::setAccessToken("PROD_ACCESS_TOKEN");
+MercadoPagoConfig::setAccessToken("APP_USR-5989808524245743-121311-53589ed4cf179ed2d356c43555e7eb60-2144285800");
 
 // Crea una instancia del cliente de preferencias de MercadoPago
 $client = new PreferenceClient();
@@ -82,7 +82,7 @@ $preference = $client->create([
 
     <script>
         // Inicializa el objeto MercadoPago con el PUBLIC_KEY
-        const mp = new MercadoPago('YOUR_PUBLIC_KEY', {
+        const mp = new MercadoPago('APP_USR-bfdf0cd3-a019-41dc-a359-e244547669b6', {
             locale: 'es-MX'
         });
 
